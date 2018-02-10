@@ -1061,13 +1061,19 @@ var randomkara = ["https://i.imgur.com/A7lmcTR.jpg",
 "https://i.imgur.com/H4Sb1EK.jpg",
 "https://i.imgur.com/5obokgb.png"];
 
+const KARMO = new Discord.RichEmbed()
+   /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x5f62ff)
+  .setImage(randomkara[count]);
+  
 
-
-
+  
+  
+  
   if (message.content.startsWith(prefix + "kara"))  {
-message.channel.sendMessage(" ", {
-    file: randomkara[count]
-});
+message.channel.sendEmbed(KARMO);
 }
 
 
