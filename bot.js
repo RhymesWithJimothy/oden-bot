@@ -1065,7 +1065,7 @@ const KARMO = new Discord.RichEmbed()
    /*
    * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
    */
-  .setColor(0x5f62ff)
+  .setColor(0x36393E)
   .setImage(randomkara[count]);
   
 
