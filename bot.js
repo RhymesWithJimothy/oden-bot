@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 bot.on('ready', () => {
   console.log('I am ready!');
-  bot.user.setGame('with oden guns')
+  bot.user.setPresence({ game: { name: 'with oden 🍢', type: 0 } })
 });
 
 const prefix ="cb!"
