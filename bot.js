@@ -1095,8 +1095,7 @@ const KARABITATA = new Discord.RichEmbed()
   .setColor(0x36393E)
   .setImage(randomkarabitapic[countkarabita])
   
-  .setAuthor(randomkarabitasource[countkarabita], randomkarabitasourceicon[countkarabita])
-  .setUrl(randomkarabitasourcelink[countkarabita]);
+  .setAuthor(randomkarabitasource[countkarabita], randomkarabitasourceicon[countkarabita]);
   
   
   
