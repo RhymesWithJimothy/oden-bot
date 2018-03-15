@@ -1071,11 +1071,11 @@ var randomkarabitapic = ["https://78.media.tumblr.com/d3243b5a3c601dd0873f730fdf
 var randomkarabitasourceicon = ["https://78.media.tumblr.com/avatar_0f3c654409dd_128.png",
 "https://78.media.tumblr.com/avatar_0f3c654409dd_128.png"];
 
-var randomkarabitasource = ["source:bothriolepis",
-"source:bothriolepis"];
+var randomkarabitasource = ["bothriolepis",
+"bothriolepis"];
 
-var randomkarabitasourcelink = ["http://bothriolepis.tumblr.com/post/171856220840/gorlfriends",
-"http://bothriolepis.tumblr.com/post/171856220840/gorlfriends"];
+var randomkarabitasourcelink = ["https://bothriolepis.tumblr.com/post/171856220840",
+"https://bothriolepis.tumblr.com/post/171856220840"];
 
 
   
@@ -1094,7 +1094,8 @@ const KARMO = new Discord.RichEmbed()
 const KARABITATA = new Discord.RichEmbed()
   .setColor(0x36393E)
   .setAuthor(randomkarabitasource[countkarabita], randomkarabitasourceicon[countkarabita])
-  .setImage(randomkarabitapic[countkarabita]);
+  .setImage(randomkarabitapic[countkarabita])
+  .setUrl(randomkarabitasourcelink[countkarabita]);
   
   
   
