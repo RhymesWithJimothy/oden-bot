@@ -1060,6 +1060,21 @@ var randomkara = ["https://i.imgur.com/A7lmcTR.jpg",
 "https://i.imgur.com/49epnFA.png",
 "https://i.imgur.com/H4Sb1EK.jpg",
 "https://i.imgur.com/5obokgb.png"];
+  
+  
+  
+    
+var countkarabita = Math.round(Math.random() * (2 - 1) + 1)
+var randomkarabitapic = ["0",
+"https://78.media.tumblr.com/d3243b5a3c601dd0873f730fdf865237/tumblr_p5keajjxaW1u9l2uco2_r1_1280.png"];
+
+var randomkarabitasourceicon = ["0",
+"https://78.media.tumblr.com/avatar_0f3c654409dd_128.png"];
+
+var randomkarabitasource = ["0",
+"source: [bothriolepis](http://bothriolepis.tumblr.com/post/171856220840/gorlfriends)"];
+  
+  
 
 const KARMO = new Discord.RichEmbed()
    /*
@@ -1069,13 +1084,31 @@ const KARMO = new Discord.RichEmbed()
   .setImage(randomkara[count]);
   
 
-  
+ 
+const KARABITATA = new Discord.RichEmbed()
+  .setColor(0x36393E)
+  .setImage(randomoso[countoso])
+  .setFooter(randomkarabitasource[countoso], randomkarabitasourceicon[countoso]);
+   
   
   
   if (message.content.startsWith(prefix + "kara"))  {
-message.channel.sendEmbed(KARMO);
+    
+       if (message.content.startsWith(prefix + "karabita"))  {
+message.channel.sendEmbed(KARABITATA);
+}  
+    else message.channel.sendEmbed(KARMO);
 }
 
+
+
+  
+
+  
+  
+  
+  
+  
   
   
   
