@@ -1076,6 +1076,84 @@ const KARMO = new Discord.RichEmbed()
 message.channel.sendEmbed(KARMO);
 }
 
+  
+  
+  
+  
+  var countkinniku = Math.round(Math.random() * (50 - 1) + 1)
+var randomkinniku = ["https://i.imgur.com/Rj8wuJ7.jpg",
+"https://i.imgur.com/VMsXNkW.png",
+"https://i.imgur.com/iVwbxoJ.png",
+"https://i.imgur.com/f5TV83W.png",
+"https://i.imgur.com/UgIIB6a.png",
+"https://i.imgur.com/95cSIzR.png",
+"https://i.imgur.com/qAljy3Q.png",
+"https://i.imgur.com/P6jsUxl.png",
+"https://i.imgur.com/1MRbhvP.png",
+"https://i.imgur.com/c5uTbyW.png",
+"https://i.imgur.com/uXXC66y.png",
+"https://i.imgur.com/QjI4cWd.png",
+"https://i.imgur.com/Hr8xsS0.png",
+"https://i.imgur.com/5W74v4f.png",
+"https://i.imgur.com/qg8yAPq.png",
+"https://i.imgur.com/B6GkdDr.png",
+"https://i.imgur.com/4SsxCDi.png",
+"https://i.imgur.com/dthm32j.png",
+"https://i.imgur.com/FkF4VFu.png",
+"https://i.imgur.com/vUNzLoD.png",
+"https://i.imgur.com/rlaUHkm.png",
+"https://i.imgur.com/XphfuVE.png",
+"https://i.imgur.com/H0Nut7E.png",
+"https://i.imgur.com/GaHPzCc.png",
+"https://i.imgur.com/nVBujJN.png",
+"https://i.imgur.com/jVI3ojw.png",
+"https://i.imgur.com/7zoqvdb.png",
+"https://i.imgur.com/r8qMPYh.png",
+"https://i.imgur.com/Ht5efkf.png",
+"https://i.imgur.com/7fGAr3l.png",
+"https://i.imgur.com/ghXrYI0.png",
+"https://i.imgur.com/9itcVn1.png",
+"https://i.imgur.com/Q0FO7ff.png",
+"https://i.imgur.com/QUgCvb4.png",
+"https://i.imgur.com/7vQPAtQ.png",
+"https://i.imgur.com/CUJO0Cx.png",
+"https://i.imgur.com/6w72UPn.gifv",
+"https://i.imgur.com/yjSd6QD.png",
+"https://i.imgur.com/xEJsCI6.png",
+"https://i.imgur.com/tkdFhxH.png",
+"https://i.imgur.com/GRDURu5.gifv",
+"https://i.imgur.com/zBa0MgX.png",
+"https://i.imgur.com/D2SdYkH.png",
+"https://i.imgur.com/53bC05W.png",
+"https://i.imgur.com/mXwQoBY.png",
+"https://i.imgur.com/Y1iMsW8.png",
+"https://i.imgur.com/3zeRoiw.png",
+"https://i.imgur.com/yDcchfU.gifv",
+"https://i.imgur.com/UUoHYmL.png",
+"https://i.imgur.com/aqaXvx0.png"];
+
+const KINNIKUKU = new Discord.RichEmbed()
+   /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x36393E)
+  .setImage(randomkinniku[countkinniku]);
+  
+
+  
+  
+  
+  if (message.content.startsWith(prefix + "kinniku"))  {
+message.channel.sendEmbed(KINNIKUKU);
+}
+  
+  
+  
+  
+  
+  
+  
+  
 
 var domymath2 = Math.round(Math.random() * (9 - 1) + 1)
 var myArray2 = ['0a',
