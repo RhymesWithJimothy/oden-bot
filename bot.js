@@ -57,7 +57,7 @@ message.channel.sendMessage(" ", {
 
 
 if (message.content.startsWith(prefix + "help"))  {
-message.channel.sendMessage(":sparkles: :oden: A  **Team Kara**  Bot   |   Prefix: `cb!`\nCurrent commands: `kara` , `gun` , `clap` ,  `oden` , `heh` , `dick` , `house` |  Command example: `cb!kara`");
+message.channel.sendMessage(":sparkles: :oden: A  **Team Kara**  Bot   |   Prefix: `cb!`\nCurrent commands: `kara` , `chibita` , `kinniku` , `oso` , `gun` , `clap` ,  `oden` , `heh` , `dick` , `house` |  Command example: `cb!kara`");
 }
 
 
@@ -1148,6 +1148,80 @@ message.channel.sendEmbed(KINNIKUKU);
 }
   
   
+  
+  
+ var countchibi = Math.round(Math.random() * (53 - 1) + 1)
+var randomchibi = [""https://i.imgur.com/CC1JUOX.jpg",
+"https://i.imgur.com/b1tIOVI.jpg",
+"https://i.imgur.com/HkvyqtB.jpg",
+"https://i.imgur.com/BcnVFkX.jpg",
+"https://i.imgur.com/hp9AMZL.jpg",
+"https://i.imgur.com/bW2gqxd.jpg",
+"https://i.imgur.com/j9jCF4l.jpg",
+"https://i.imgur.com/b5aMOSx.jpg",
+"https://i.imgur.com/VjkBeyD.jpg",
+"https://i.imgur.com/MthBzJ5.jpg",
+"https://i.imgur.com/1lP7QPI.jpg",
+"https://i.imgur.com/Np9Rm94.jpg",
+"https://i.imgur.com/2kG7hsf.jpg",
+"https://i.imgur.com/rrS7gBw.jpg",
+"https://i.imgur.com/pbmBnpu.jpg",
+"https://i.imgur.com/Yx5oUNG.jpg",
+"https://i.imgur.com/SiupbOY.jpg",
+"https://i.imgur.com/THquYlh.png",
+"https://i.imgur.com/w68ZKZT.jpg",
+"https://i.imgur.com/CpgSHbb.jpg",
+"https://i.imgur.com/x20GmvD.jpg",
+"https://i.imgur.com/X2q7cht.png",
+"https://i.imgur.com/OmMRblu.jpg",
+"https://i.imgur.com/k9wl3fV.jpg",
+"https://i.imgur.com/15T0MXs.jpg",
+"https://i.imgur.com/uTEp9iC.jpg",
+"https://i.imgur.com/IeN0JV1.jpg",
+"https://i.imgur.com/k8KQhoe.jpg",
+"https://i.imgur.com/H9HCIxB.jpg",
+"https://i.imgur.com/tRawRaU.jpg",
+"https://i.imgur.com/zyp8FXw.png",
+"https://i.imgur.com/Eyi2fui.jpg",
+"https://i.imgur.com/oPjGpM8.jpg",
+"https://i.imgur.com/dXdGf5K.jpg",
+"https://i.imgur.com/NDMYuHr.jpg",
+"https://i.imgur.com/HV5olDf.jpg",
+"https://i.imgur.com/rOI4KpB.jpg",
+"https://i.imgur.com/YqCMSVB.jpg",
+"https://i.imgur.com/qLY3O6J.png",
+"https://i.imgur.com/jsJVKrW.png",
+"https://i.imgur.com/kJYFtyQ.jpg",
+"https://i.imgur.com/XtZ2QGr.jpg",
+"https://i.imgur.com/5JlTGpd.png",
+"https://i.imgur.com/zhZbHiR.gifv",
+"https://i.imgur.com/BssbTPC.png",
+"https://i.imgur.com/iDxsOpW.png",
+"https://i.imgur.com/0FKwg2N.gifv",
+"https://i.imgur.com/4hGf3cU.png",
+"https://i.imgur.com/tdmNkAs.png",
+"https://i.imgur.com/0cPGtFw.png",
+"https://i.imgur.com/sbWUaSV.gifv",
+"https://i.imgur.com/6tNyt9b.png",
+"https://i.imgur.com/1CeRrpn.png",
+"https://i.imgur.com/nWbYfn6.png",
+"https://i.imgur.com/FvlmRKv.png",
+"https://i.imgur.com/KiSwe7g.png"];
+
+const CHIBITATA = new Discord.RichEmbed()
+   /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor(0x36393E)
+  .setImage(randomchibi[countchibi]);
+  
+
+  
+  
+  
+  if (message.content.startsWith(prefix + "chibita"))  {
+message.channel.sendEmbed(CHIBITATA);
+}
   
   
   
