@@ -1064,14 +1064,20 @@ var randomkara = ["https://i.imgur.com/A7lmcTR.jpg",
   
   
     
-var countkarabita = Math.round(Math.random() * (2 - 1) + 1)
+var countkarabita = Math.round(Math.random() * (5 - 1) + 1)
 var randomkarabitapic = ["https://78.media.tumblr.com/d3243b5a3c601dd0873f730fdf865237/tumblr_p5keajjxaW1u9l2uco2_r1_1280.png",
 "https://78.media.tumblr.com/d3243b5a3c601dd0873f730fdf865237/tumblr_p5keajjxaW1u9l2uco2_r1_1280.png",
-"https://68.media.tumblr.com/bb10005a5fa8d4265cfd29dfa65eccb5/tumblr_on3qcu7tVy1w6skzno2_1280.png"];
-
+"https://68.media.tumblr.com/bb10005a5fa8d4265cfd29dfa65eccb5/tumblr_on3qcu7tVy1w6skzno2_1280.png",
+"https://78.media.tumblr.com/cded32ae3b967aeba7e7f55747346b06/tumblr_p5keajjxaW1u9l2uco1_r1_1280.png",
+"https://68.media.tumblr.com/a3f1bafa09dd1fb0fab1b60ca3d0b162/tumblr_p4y3zqVUgv1uyk2yjo2_r1_1280.png",
+"https://78.media.tumblr.com/8ed726b073f19da999b6e0aa271f81dd/tumblr_og6t1eFbOs1vui3hno1_540.gif"];
+  
 var randomkarabitasource = ["[bothriolepis](https://bothriolepis.tumblr.com/post/171856220840)",
 "[bothriolepis](https://bothriolepis.tumblr.com/post/171856220840)",
-"[feliville](https://feliville.tumblr.com/post/158619870453)"];
+"[feliville](https://feliville.tumblr.com/post/158619870453)",
+"[bothriolepis](https://bothriolepis.tumblr.com/post/171856220840)",
+"[sangled](http://sangled.tumblr.com/post/171437360619)",
+"[mira-hattu](http://mira-hattu.tumblr.com/post/152781276394/comforting-oden-and-smol-bean)"];
 
 
   
