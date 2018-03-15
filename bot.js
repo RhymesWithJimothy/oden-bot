@@ -1087,8 +1087,8 @@ const KARMO = new Discord.RichEmbed()
  
 const KARABITATA = new Discord.RichEmbed()
   .setColor(0x36393E)
-  .setImage(randomoso[countoso])
-  .setFooter(randomkarabitasource[countoso], randomkarabitasourceicon[countoso]);
+  .setImage(randomkarabitapic[countkarabita])
+  .setFooter(randomkarabitasource[countkarabita], randomkarabitasourceicon[countkarabita]);
    
   
   
