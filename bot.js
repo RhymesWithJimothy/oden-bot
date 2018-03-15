@@ -1094,7 +1094,12 @@ var randomkarabitapic = ["https://78.media.tumblr.com/d3243b5a3c601dd0873f730fdf
 "https://78.media.tumblr.com/2ba6242543e033d222327e0533b37a51/tumblr_oku1wk1au81tryr1lo1_540.jpg",
 "https://68.media.tumblr.com/ee9d0c8e1f6deb376825249f64c2a992/tumblr_p16gvrPzM51u9l2uco1_1280.png",
 "https://68.media.tumblr.com/e9208c9b504a69a844c04de8bcb13c00/tumblr_oxbfi4i1Bk1spqku9o1_1280.png",
-"http://78.media.tumblr.com/0501e538ff1d680514c95a0e14d39232/tumblr_ovj9viiUIg1vo54gzo1_500.png"];
+"http://78.media.tumblr.com/0501e538ff1d680514c95a0e14d39232/tumblr_ovj9viiUIg1vo54gzo1_500.png",
+"https://78.media.tumblr.com/d568afe5fb0e0dcbc52f16b346eb0614/tumblr_inline_ouk32vVpOj1und9l2_540.png",
+"https://68.media.tumblr.com/d1c70d6b91c5a0d2108b30a62ce88b21/tumblr_ou1pssEb801u9l2uco1_1280.png",
+"https://68.media.tumblr.com/b6d58e359908e2946669d7a9eccaf5ca/tumblr_p46c8lhl8m1vo9mkko1_1280.png",
+"https://68.media.tumblr.com/f12e4ff2ae8eb61bc2947fbb390d6d33/tumblr_p0b3xxoSXN1thnv5bo1_1280.png",
+"https://78.media.tumblr.com/e8f030cd1c06a8ead29482502679d2f2/tumblr_o744pvpWow1v4dluuo2_540.png"];
   
 var randomkarabitasource = ["[bothriolepis](https://bothriolepis.tumblr.com/post/171856220840)",
 "[bothriolepis](https://bothriolepis.tumblr.com/post/171856220840)",
@@ -1126,7 +1131,12 @@ var randomkarabitasource = ["[bothriolepis](https://bothriolepis.tumblr.com/post
 "[camrazstuff](http://camrazstuff.tumblr.com/post/156785562996/juust-a-quick-lazy-little-doodley-karabeet)",
 "[bothriolepis](http://bothriolepis.tumblr.com/post/168692388305/whoa-romance)",
 "[overlandblues](http://overlandblues.tumblr.com/post/166051173408)",
-"[alioila](http://alioila.tumblr.com/post/164814022426/bothriolepis-you-did-this-to-me)"];
+"[alioila](http://alioila.tumblr.com/post/164814022426/bothriolepis-you-did-this-to-me)",
+"[barachibita](http://barachibita.tumblr.com/post/164086607597/today-is-a-good-day)",
+"[bothriolepis](http://bothriolepis.tumblr.com/post/163706817360/i-made-a-collage-out-of-all-my-recent-karabita)",
+"[aliendoobles](http://aliendoobles.tumblr.com/post/170894131976/happy-valentines-day)",
+"[shegs](http://shegs.tumblr.com/post/168093756372)",
+"[shonosuke](http://shonosuke.tumblr.com/post/144293077326/gay-shit)"];
 
 var numberofpics = randomkarabitapic.length - 1;
 var countkarabita = Math.round(Math.random() * (numberofpics - 1) + 1)
