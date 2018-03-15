@@ -1151,7 +1151,7 @@ message.channel.sendEmbed(KINNIKUKU);
   
   
  var countchibi = Math.round(Math.random() * (53 - 1) + 1)
-var randomchibi = [""https://i.imgur.com/CC1JUOX.jpg",
+var randomchibi = ["https://i.imgur.com/CC1JUOX.jpg",
 "https://i.imgur.com/b1tIOVI.jpg",
 "https://i.imgur.com/HkvyqtB.jpg",
 "https://i.imgur.com/BcnVFkX.jpg",
