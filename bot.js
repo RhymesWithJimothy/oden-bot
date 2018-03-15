@@ -1072,8 +1072,14 @@ var randomkarabitasourceicon = ["0",
 "https://78.media.tumblr.com/avatar_0f3c654409dd_128.png"];
 
 var randomkarabitasource = ["0",
-"source: [bothriolepis](http://bothriolepis.tumblr.com/post/171856220840/gorlfriends)"];
+"source:bothriolepis"];
+
+var randomkarabitasourcelink = ["0",
+"http://bothriolepis.tumblr.com/post/171856220840/gorlfriends"];
+
+
   
+
   
 
 const KARMO = new Discord.RichEmbed()
@@ -1088,8 +1094,9 @@ const KARMO = new Discord.RichEmbed()
 const KARABITATA = new Discord.RichEmbed()
   .setColor(0x36393E)
   .setImage(randomkarabitapic[countkarabita])
-  .setFooter(randomkarabitasource[countkarabita], randomkarabitasourceicon[countkarabita]);
-   
+  .setAuthor(randomkarabitasource[countkarabita], randomkarabitasourceicon[countkarabita])
+  .setUrl(randomkarabitasourcelink[countkarabita]);
+  
   
   
   if (message.content.startsWith(prefix + "kara"))  {
