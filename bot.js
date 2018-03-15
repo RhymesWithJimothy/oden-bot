@@ -1064,7 +1064,7 @@ var randomkara = ["https://i.imgur.com/A7lmcTR.jpg",
   
   
     
-var countkarabita = Math.round(Math.random() * (3 - 1) + 1)
+var countkarabita = Math.round(Math.random() * (2 - 1) + 1)
 var randomkarabitapic = ["https://78.media.tumblr.com/d3243b5a3c601dd0873f730fdf865237/tumblr_p5keajjxaW1u9l2uco2_r1_1280.png",
 "https://78.media.tumblr.com/d3243b5a3c601dd0873f730fdf865237/tumblr_p5keajjxaW1u9l2uco2_r1_1280.png",
 "https://68.media.tumblr.com/bb10005a5fa8d4265cfd29dfa65eccb5/tumblr_on3qcu7tVy1w6skzno2_1280.png"];
