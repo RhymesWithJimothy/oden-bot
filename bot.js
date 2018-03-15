@@ -1064,20 +1064,58 @@ var randomkara = ["https://i.imgur.com/A7lmcTR.jpg",
   
   
     
-var countkarabita = Math.round(Math.random() * (5 - 1) + 1)
 var randomkarabitapic = ["https://78.media.tumblr.com/d3243b5a3c601dd0873f730fdf865237/tumblr_p5keajjxaW1u9l2uco2_r1_1280.png",
 "https://78.media.tumblr.com/d3243b5a3c601dd0873f730fdf865237/tumblr_p5keajjxaW1u9l2uco2_r1_1280.png",
 "https://68.media.tumblr.com/bb10005a5fa8d4265cfd29dfa65eccb5/tumblr_on3qcu7tVy1w6skzno2_1280.png",
 "https://78.media.tumblr.com/cded32ae3b967aeba7e7f55747346b06/tumblr_p5keajjxaW1u9l2uco1_r1_1280.png",
 "https://68.media.tumblr.com/a3f1bafa09dd1fb0fab1b60ca3d0b162/tumblr_p4y3zqVUgv1uyk2yjo2_r1_1280.png",
-"https://78.media.tumblr.com/8ed726b073f19da999b6e0aa271f81dd/tumblr_og6t1eFbOs1vui3hno1_540.gif"];
+"https://78.media.tumblr.com/8ed726b073f19da999b6e0aa271f81dd/tumblr_og6t1eFbOs1vui3hno1_540.gif",
+"https://78.media.tumblr.com/dc53b2fa79693e2e48cfa182fc0cf09d/tumblr_p2us04ikNN1x29pn0o1_1280.png",
+"https://78.media.tumblr.com/c257b0a52aff6afc9fd1ce01f610cc22/tumblr_osolgwBb0m1u9l2uco1_540.jpg",
+"https://78.media.tumblr.com/b4b6b6116a9fee34bb15bf1847ebf2ef/tumblr_p4u4nsci7l1ucuqq2o1_540.png",
+"https://78.media.tumblr.com/6d69d4e9a9b567beec9701ac953fb2ac/tumblr_orgnpwX48W1wnxmhto5_1280.png",
+"https://78.media.tumblr.com/2d53c528f9a2b8221634fc7c3a92c28c/tumblr_ox2yha1LBU1v0jfnlo1_540.png",
+"https://78.media.tumblr.com/eda63fcda9e8710d5866bc0b7414a11d/tumblr_p4s9udSafx1wnxmhto1_540.png",
+"https://78.media.tumblr.com/f30416d0beb0d8886d0b7228647aa6b3/tumblr_oy22emQytz1v2ncnco5_r1_540.png",
+"https://78.media.tumblr.com/c82bbcac167cb9db5fd9291af280e9ce/tumblr_opwmtrkVYY1u9l2uco1_r1_540.png",
+"https://78.media.tumblr.com/ca7fdbb6b603021fa52842b95e0bc7d5/tumblr_owtk4grx9s1r70ngto2_1280.png",
+"https://68.media.tumblr.com/0b52cf6923c2abc9154432b473f67af5/tumblr_oxu754lE8M1voo29lo1_1280.png",
+"https://78.media.tumblr.com/ccc565044a6fd5cc23d9ed1013d18438/tumblr_ow00cs1VBk1spqku9o3_540.png",
+"https://78.media.tumblr.com/def980d29401db9f57c1c72d45b72857/tumblr_oq8ll7Wl1u1wnxmhto1_540.png",
+"https://78.media.tumblr.com/2bf0b0a3d8f2b8a2ad3cbaff1947b32c/tumblr_oumuie0Y1g1rkeqcso1_540.png",
+"https://68.media.tumblr.com/6e51b0a88814c31f97cb719688396dbc/tumblr_p041thsbkl1vo54gzo1_1280.png",
+"https://78.media.tumblr.com/90a942e1f9e28a274e47309649dae946/tumblr_p0trfxjet21qlrt64o1_540.png",
+"https://78.media.tumblr.com/c0ce0602c3bd5227468efde904b7dbff/tumblr_p0trfxjet21qlrt64o2_1280.png",
+"https://78.media.tumblr.com/b89d1c8469aac7708c8aab91925f57be/tumblr_p0trfxjet21qlrt64o4_1280.png",
+"https://78.media.tumblr.com/e17dc1baefbc215da711c15f3f9940b5/tumblr_p0trfxjet21qlrt64o3_1280.png"];
   
 var randomkarabitasource = ["[bothriolepis](https://bothriolepis.tumblr.com/post/171856220840)",
 "[bothriolepis](https://bothriolepis.tumblr.com/post/171856220840)",
 "[feliville](https://feliville.tumblr.com/post/158619870453)",
 "[bothriolepis](https://bothriolepis.tumblr.com/post/171856220840)",
 "[sangled](http://sangled.tumblr.com/post/171437360619)",
-"[mira-hattu](http://mira-hattu.tumblr.com/post/152781276394/comforting-oden-and-smol-bean)"];
+"[mira-hattu](http://mira-hattu.tumblr.com/post/152781276394/comforting-oden-and-smol-bean)",
+"[osxmatsu](https://osxmatsu.tumblr.com/post/169918876345/i-love-karabita-choukei-more-like-choke)",
+"[bothriolepis](http://bothriolepis.tumblr.com/post/162684922712)",
+"[kowalskioptions](http://kowalskioptions.tumblr.com/post/171362754439/amor)",
+"[audens](https://audens.tumblr.com/post/161755589571/some-colored-pencil-sketches-because-i-like-the)",
+"[karabita](http://karabita.tumblr.com/post/165889970842)",
+"[audens](https://audens.tumblr.com/post/171326800796/you-know-how-i-works-on-this-blog-folks)",
+"[supplykit](http://supplykit.tumblr.com/post/166561493423/cinderkara-is-still-with-me-like-a-parasite)",
+"[bothriolepis](http://bothriolepis.tumblr.com/post/160643311520/i-finally-drew-it-gay-beach-au)",
+"[dashiroll](http://dashiroll.tumblr.com/post/165714390548/some-good-classic-oso-ships-of-mine)",
+"[sizzlefrass](http://sizzlefrass.tumblr.com/post/166408654914)",
+"[overlandblues](http://overlandblues.tumblr.com/post/165141025988/karabita-is-coming)",
+"[audens](https://audens.tumblr.com/post/160863967841/uhm)",
+"[monsterology](http://monsterology.tumblr.com/post/164140165310/never-challenge-my-power-ever-again)",
+"[alioila](http://alioila.tumblr.com/post/167964602101/help-him)",
+"[goosterbold](http://goosterbold.tumblr.com/post/168448914275/match-made-in-hell-hi-i-really-like-the-fanwork)",
+"[goosterbold](http://goosterbold.tumblr.com/post/168448914275/match-made-in-hell-hi-i-really-like-the-fanwork)",
+"[goosterbold](http://goosterbold.tumblr.com/post/168448914275/match-made-in-hell-hi-i-really-like-the-fanwork)",
+"[goosterbold](http://goosterbold.tumblr.com/post/168448914275/match-made-in-hell-hi-i-really-like-the-fanwork)"];
+
+var numberofpics = fruits.length + 1;
+var countkarabita = Math.round(Math.random() * (numberofpics - 1) + 1)
 
 
   
