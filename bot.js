@@ -1068,14 +1068,8 @@ var countkarabita = Math.round(Math.random() * (2 - 1) + 1)
 var randomkarabitapic = ["https://78.media.tumblr.com/d3243b5a3c601dd0873f730fdf865237/tumblr_p5keajjxaW1u9l2uco2_r1_1280.png",
 "https://78.media.tumblr.com/d3243b5a3c601dd0873f730fdf865237/tumblr_p5keajjxaW1u9l2uco2_r1_1280.png"];
 
-var randomkarabitasourceicon = ["https://78.media.tumblr.com/avatar_0f3c654409dd_128.png",
-"https://78.media.tumblr.com/avatar_0f3c654409dd_128.png"];
-
-var randomkarabitasource = ["bothriolepis",
-"bothriolepis"];
-
-var randomkarabitasourcelink = ["https://bothriolepis.tumblr.com/post/171856220840",
-"https://bothriolepis.tumblr.com/post/171856220840"];
+var randomkarabitasource = ["[bothriolepis](https://bothriolepis.tumblr.com/post/171856220840)",
+"[bothriolepis](https://bothriolepis.tumblr.com/post/171856220840)"];
 
 
   
@@ -1093,9 +1087,8 @@ const KARMO = new Discord.RichEmbed()
  
 const KARABITATA = new Discord.RichEmbed()
   .setColor(0x36393E)
-  .setAuthor(randomkarabitasource[countkarabita], randomkarabitasourceicon[countkarabita])
-  .setImage(randomkarabitapic[countkarabita])
-  .setUrl(randomkarabitasourcelink[countkarabita]);
+  .setDescription(":oden::sparkles: source: " + randomkarabitasource[countkarabita])
+  .setImage(randomkarabitapic[countkarabita]);
   
   
   
