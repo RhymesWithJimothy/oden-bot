@@ -1114,7 +1114,7 @@ var randomkarabitasource = ["[bothriolepis](https://bothriolepis.tumblr.com/post
 "[goosterbold](http://goosterbold.tumblr.com/post/168448914275/match-made-in-hell-hi-i-really-like-the-fanwork)",
 "[goosterbold](http://goosterbold.tumblr.com/post/168448914275/match-made-in-hell-hi-i-really-like-the-fanwork)"];
 
-var numberofpics = randomkarabitapic.length + 1;
+var numberofpics = randomkarabitapic.length - 1;
 var countkarabita = Math.round(Math.random() * (numberofpics - 1) + 1)
 
 
